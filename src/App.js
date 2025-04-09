@@ -6,7 +6,7 @@ import { SnackbarProvider } from './contexts/SnackbarContext';
 import PrivateRoute from './components/common/PrivateRoute';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
-import HomePage from './pages/Home';
+import HomePage from './pages/HomePage';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import SupplierRegister from './pages/supplier/SupplierRegister';
