@@ -28,7 +28,7 @@ function App() {
         <Header />
         <Container component="main" sx={{ mt: 4, mb: 4, minHeight: 'calc(100vh - 160px)' }}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/supplier/register" element={<SupplierRegister />} />
